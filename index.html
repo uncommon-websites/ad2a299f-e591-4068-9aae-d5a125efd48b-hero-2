@@ -6,24 +6,28 @@
     <title>REEFORMA</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <style>
-        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400;500&family=Inter:wght@300;400;500&display=swap');
         body {
             font-family: 'Inter', sans-serif;
             -webkit-font-smoothing: antialiased;
             -moz-osx-font-smoothing: grayscale;
         }
+        .serif-heading {
+            font-family: 'Cormorant Garamond', serif;
+            font-weight: 300;
+        }
     </style>
 </head>
-<body class="bg-white text-black">
+<body class="bg-[#fafaf9] text-[#1c1917]">
 
     <div class="w-full min-h-screen px-5 py-6 md:px-10 md:py-10 mx-auto max-w-[2400px]">
         
         <!-- Navigation -->
         <!-- Grid layout: 12 columns to handle the specific 25% interval spacing -->
-        <header class="grid grid-cols-2 md:grid-cols-12 gap-4 text-[15px] leading-none mb-32 md:mb-64">
+        <header class="grid grid-cols-2 md:grid-cols-12 gap-4 text-[13px] md:text-[14px] leading-none mb-32 md:mb-64 tracking-[0.02em]">
             
             <!-- Logo: Far Left -->
-            <div class="col-span-1 md:col-span-3 tracking-tight text-black">
+            <div class="col-span-1 md:col-span-3 tracking-[0.08em] text-[#1c1917] font-light text-[14px] md:text-[15px]">
                 REEFORMA
             </div>
 
@@ -33,29 +37,29 @@
             <!-- Desktop Links -->
             <!-- Market Entry: Starts at 25% (Col 4) -->
             <div class="hidden md:block md:col-start-4 md:col-span-3">
-                <a href="#" class="hover:text-[#44403c] transition-colors">Projects</a>
+                <a href="#" class="hover:text-[#78716c] transition-all duration-300">Projects</a>
             </div>
 
             <!-- Expertise: Starts at 50% (Col 7) -->
             <div class="hidden md:block md:col-start-7 md:col-span-3">
-                <a href="#" class="hover:text-gray-600 transition-colors">Profile</a>
+                <a href="#" class="hover:text-[#78716c] transition-all duration-300">Profile</a>
             </div>
 
             <!-- Dark Mode: Starts at 75% (Col 10) -->
             <div class="hidden md:block md:col-start-10 md:col-span-2">
-                <button class="hover:text-gray-600 transition-colors">Lights Off</button>
+                <button class="hover:text-[#78716c] transition-all duration-300">Lights Off</button>
             </div>
 
             <!-- Connect: Far Right -->
             <div class="hidden md:block md:col-start-12 md:col-span-1 text-right">
-                <a href="#" class="hover:text-gray-600 transition-colors">Contact</a>
+                <a href="#" class="hover:text-[#78716c] transition-all duration-300">Contact</a>
             </div>
         </header>
 
         <main>
             <!-- Hero Text Section -->
             <section class="mb-32 md:mb-52">
-                <h1 class="text-2xl md:text-4xl lg:text-[2.65rem] leading-[1.15] tracking-tight font-normal max-w-full md:max-w-[78%] lg:max-w-[72%] text-black">
+                <h1 class="serif-heading text-3xl md:text-[2.75rem] lg:text-[3.25rem] leading-[1.25] tracking-[-0.01em] font-light max-w-full md:max-w-[78%] lg:max-w-[72%] text-[#1c1917]">
                     REEFORMA bridges Asian luxury brands to global markets through integrated PR and cross-cultural storytelling expertise. We leverage our cross-continental network to help luxury beauty and fashion brands scale into Western markets.
                 </h1>
             </section>
@@ -63,15 +67,15 @@
             <!-- Project Section -->
             <section class="w-full">
                 <!-- Project Info Header -->
-                <div class="grid grid-cols-1 md:grid-cols-12 gap-y-2 md:gap-y-0 mb-5 text-[15px]">
+                <div class="grid grid-cols-1 md:grid-cols-12 gap-y-2 md:gap-y-0 mb-8 text-[14px] tracking-[0.01em]">
                     
                     <!-- Title: Aligns with 'Projects' (Col 4) -->
-                    <div class="md:col-start-4 md:col-span-3 font-medium text-black">
+                    <div class="md:col-start-4 md:col-span-3 font-normal text-[#1c1917]">
                         Luxury Beauty Expansion
                     </div>
 
                     <!-- Description: Aligns with 'Profile' (Col 7) -->
-                    <div class="md:col-start-7 md:col-span-6 lg:col-span-5 text-[#44403c] leading-normal">
+                    <div class="md:col-start-7 md:col-span-6 lg:col-span-5 text-[#57534e] leading-relaxed font-light">
                         Integrated PR and cross-cultural storytelling for premium Asian brands entering the $580B global beauty market.
                     </div>
                 </div>
@@ -80,7 +84,7 @@
                 <div class="grid grid-cols-1 md:grid-cols-12">
                     <!-- Image: Aligns with 'Projects' (Col 4) and spans to end -->
                     <div class="md:col-start-4 md:col-span-9">
-                        <img src="https://imolwncbqxugevwmleed.supabase.co/storage/v1/object/public/public-assets/hero-images/ad2a299f-e591-4068-9aae-d5a125efd48b/hero-2-img-0-1770223255195.png" alt="Tsu Lange Yor Project" class="w-full h-auto object-cover grayscale block aspect-[16/9] md:aspect-[16/8.5]">
+                        <img src="https://imolwncbqxugevwmleed.supabase.co/storage/v1/object/public/public-assets/hero-images/ad2a299f-e591-4068-9aae-d5a125efd48b/hero-2-img-0-1770223255195.png" alt="Tsu Lange Yor Project" class="w-full h-auto object-cover grayscale block aspect-[16/9] md:aspect-[16/8.5] opacity-90 hover:opacity-100 transition-opacity duration-500">
                     </div>
                 </div>
             </section>
